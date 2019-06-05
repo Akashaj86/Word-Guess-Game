@@ -1,0 +1,44 @@
+#hangman-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
+}
+    
+#hangman-img {
+  transition: all 1s;
+  opacity: 0;
+}
+  
+  
+  #hangman-right {
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+    padding: 10px;
+    background: rgb(223, 109, 16);
+  }
+  #hangman-words span {
+    display: inline-block;
+    margin: 5px;
+    font-size: 2em;
+  }
+  #hangman-char input[type=button] {
+    font-size: 20px;
+    padding: 5px;
+  }
+  #hangman-bottom {
+    padding: 5px;
+  }
+  
+  
+  html, body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+body{ background-image: url("http://tmsimg.com/assets/v13/AllPhotos/15366809/p15366809_p_v13_ab.jpg");
+ background-size: 300px; }

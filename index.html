@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Hangman Game: (Marvel's Avengers Edition) </title>
+    <link rel="stylesheet" type = "text/css" href="hangman.css"/>
+  </head>
 
+<body>
+<!--Trying to work with img -->
+<div id="hangman-wrap">
+
+<div id="hangman-img" src="hangman.png">
+</div>
+</div>
+<div id="hangman-right">
+<!-- Vocab section -->
+<div id="hangman-words">
+</div>    
+<!-- available characters-->
+<div id="hangman-char">
+</div>
+<!-- guesses/lives controls -->
+<div id="hangman-bottom">
+Lives Left: <span id="hangman-lives"></span>
+Wins: <span id="hangman-wins"></span>
+Losses:<span id="hangman-losses"></span> 
+<input type="button" value="Reset" id="hangman-reset" disabled/>
+</div>
+</div>
+</div>
+
+
+<!--PLACED JAVA TAG AT BOTTOM OF BODY BECAUSE W3 SCHOOLS SAID IT CAUSES A FASTER LOAD SPEED-->
+<script src="hangman.js"></script>
+
+
+</body>
+</html>
